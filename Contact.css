@@ -1,0 +1,75 @@
+/* *{
+    border: 1px solid red;
+} */
+header{
+    margin-top: -50px;
+}
+#ContactBox{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 100px;
+}
+
+#ContactBT{
+    font-size: 30px;
+    font-weight: bold;
+}
+#map{
+    border: 2px solid wheat;
+    border-radius: 20px;
+    overflow: hidden;
+}
+#ContactBoxText{
+    margin-top: 40px;
+}
+#MsgInfoBox{
+    display: flex;
+    gap: 80px;
+    justify-content:center ;
+    padding: 90px;
+    margin: 30px;
+    border: 1px solid white;
+    margin-top: 50px;
+}
+.Msg{
+    width: 700px;
+    padding: 8px;
+    margin-bottom: 20px;
+    background: transparent;
+    /* color: black; */
+    box-shadow: none;
+    border: none;
+    border: 0.1px solid white;
+}
+.ManName{
+    /* float: right; */
+    font-size: 22px;
+}
+SText2{
+    /* margin-top: 40px; */
+    font-size: 15px;
+    line-height: 22px;
+    font-weight: 100;
+    color: gray;
+    float: right;
+}
+.ManInfo{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    padding: 10px;
+}
+#MsgBtn{
+    padding: 10px;
+    background-color: darkolivegreen;
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+}
+#MsgLove{
+    font-size: 30px;
+    /* margin: 50px 0 10px 0; */
+}
+

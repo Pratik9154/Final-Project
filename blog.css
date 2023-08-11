@@ -1,0 +1,46 @@
+
+.BlogBox{
+    display: flex;
+    justify-content: center;
+    margin: 140px 0 10px 0;
+    /* justify-content: space-evenly; */
+    gap: 50px;
+}
+.Blogimg{
+    height: 300px;
+    width: 500px;
+     background-size: cover;
+    /* overflow: hidden; */
+
+}
+.BlogimgT{
+    position: absolute;
+    font-size: 55px;
+    transform: translateY(-50px);
+    color: gray;
+}
+.BlogText{
+    width: 500px;
+    /* align-items: center; */
+    margin-top: 80px;
+    /* display: flexbox; */
+    /* line-height: 50px; */
+}
+.BlogLT{
+    font-size: 30px;
+    /* padding-bottom: 20px;
+    margin-bottom: 20px; */
+}
+.Continue{
+    font-size:20px;
+}
+.Continue:hover{
+    color: goldenrod;
+    cursor: pointer;
+}
+SText{
+    color: gray;
+}
+.BannerBig{
+    font-size: 45px;
+}

@@ -1,0 +1,42 @@
+#AboutBox{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 100px;
+}
+#AboutImg{
+    width: 600px;
+    height: 400px;
+}
+#AboutText{
+    width: 500px;
+    margin-top: 40px;
+}
+.AboutLT{
+    font-size: 60px;
+}
+#AboutL{
+    text-decoration:underline dotted;
+    font-size: 19px;
+}
+#FlotText{
+    font-size: 20px;
+    background-color: gray;
+}
+#DApp{
+    font-size: 50px;
+    text-align: center;
+    margin: 50px 0 50px 0;
+}
+#AboutVidBox{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+#AboutVid{
+    height: 550px;
+    width: 730px;
+    border: 3px solid white;
+    border-radius: 40px;
+    overflow: hidden;
+}
